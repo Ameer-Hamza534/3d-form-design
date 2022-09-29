@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D form</title>
+    <link rel="stylesheet" href="./Links/style.css" />
+    <!-- ===================== google font ========================= -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="forms-wrapper">
+        <form class="signin-form">
+          <h2>Sign In</h2>
+          <div class="input-wrapper">
+            <input type="text" required placeholder="Enter your email" />
+            <input type="password" required placeholder="Enter your Password" />
+            <input type="submit" class="submit" value="Sign In" />
+            <p>
+              Don't have an account yet?<a href="#" class="signup-btn sign-btn"
+                >Sign up</a
+              >
+            </p>
+          </div>
+        </form>
+        <form class="signup-form">
+          <h2>Sign Up</h2>
+          <div class="input-wrapper">
+            <input type="text" required placeholder="Enter your Name" />
+            <input type="text" required placeholder="Enter your email" />
+            <input type="password" required placeholder="Enter your Password" />
+            <input type="password" required placeholder="Confirm Password" />
+            <input type="submit" class="submit" value="Sign Up" />
+            <p>
+              Already have an account?<a href="#" class="signin-btn sign-btn"
+                >Sign in</a
+              >
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- ======================= JavaScript ========================= -->
+    <script src="./Links/script.js"></script>
+  </body>
+</html>
